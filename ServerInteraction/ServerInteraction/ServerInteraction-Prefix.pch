@@ -1,0 +1,12 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif
+
+#define NSLog(__FORMAT__, ...) NSLog((@"%s" __FORMAT__), __PRETTY_FUNCTION__,##__VA_ARGS__)

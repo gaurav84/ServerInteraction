@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		F8915EE71A6A86B9008F28C0 /* ServerInteractionFramework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F8915EE81A6A86B9008F28C0 /* Build configuration list for PBXAggregateTarget "ServerInteractionFramework" */;
+			buildPhases = (
+				F8915EEB1A6A86E1008F28C0 /* Xcode Script to Lipo Tool */,
+			);
+			dependencies = (
+			);
+			name = ServerInteractionFramework;
+			productName = ServerInteractionFramework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		F8022B931A6AA8C0007102E0 /* Validator.h in Headers */ = {isa = PBXBuildFile; fileRef = F8022B911A6AA8C0007102E0 /* Validator.h */; };
+		F8022B941A6AA8C0007102E0 /* Validator.m in Sources */ = {isa = PBXBuildFile; fileRef = F8022B921A6AA8C0007102E0 /* Validator.m */; };
+		F8022B9D1A6AABFA007102E0 /* SWAppHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = F8022B9B1A6AABFA007102E0 /* SWAppHelper.h */; };
+		F8022B9E1A6AABFA007102E0 /* SWAppHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F8022B9C1A6AABFA007102E0 /* SWAppHelper.m */; };
+		F8915EE41A6A8537008F28C0 /* SWRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F8915EE31A6A8537008F28C0 /* SWRequest.m */; };
+		F8915EE61A6A8614008F28C0 /* SWRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = F8915EE21A6A8537008F28C0 /* SWRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8976DDA1A6A822900D8A59B /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8976DD91A6A822900D8A59B /* CoreFoundation.framework */; };
+		F8976DE01A6A822900D8A59B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8976DDE1A6A822900D8A59B /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F8022B911A6AA8C0007102E0 /* Validator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Validator.h; sourceTree = "<group>"; };
+		F8022B921A6AA8C0007102E0 /* Validator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Validator.m; sourceTree = "<group>"; };
+		F8022B951A6AA998007102E0 /* SWRequestDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWRequestDelegate.h; sourceTree = "<group>"; };
+		F8022B981A6AAB69007102E0 /* SWHTTPMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWHTTPMethod.h; sourceTree = "<group>"; };
+		F8022B991A6AAB81007102E0 /* SWRequestType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWRequestType.h; sourceTree = "<group>"; };
+		F8022B9B1A6AABFA007102E0 /* SWAppHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWAppHelper.h; sourceTree = "<group>"; };
+		F8022B9C1A6AABFA007102E0 /* SWAppHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWAppHelper.m; sourceTree = "<group>"; };
+		F8915EE21A6A8537008F28C0 /* SWRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRequest.h; sourceTree = "<group>"; };
+		F8915EE31A6A8537008F28C0 /* SWRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRequest.m; sourceTree = "<group>"; };
+		F8915EF31A6A8FE2008F28C0 /* SWErrorCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWErrorCode.h; sourceTree = "<group>"; };
+		F8976DD61A6A822900D8A59B /* ServerInteraction.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ServerInteraction.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8976DD91A6A822900D8A59B /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		F8976DDD1A6A822900D8A59B /* ServerInteraction-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ServerInteraction-Info.plist"; sourceTree = "<group>"; };
+		F8976DDF1A6A822900D8A59B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F8976DE11A6A822900D8A59B /* ServerInteraction-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ServerInteraction-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8976DD31A6A822900D8A59B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8976DDA1A6A822900D8A59B /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8022B8F1A6AA86D007102E0 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F8022B9A1A6AABD5007102E0 /* Helpers */,
+				F8022B901A6AA87E007102E0 /* Validator */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		F8022B901A6AA87E007102E0 /* Validator */ = {
+			isa = PBXGroup;
+			children = (
+				F8022B911A6AA8C0007102E0 /* Validator.h */,
+				F8022B921A6AA8C0007102E0 /* Validator.m */,
+			);
+			name = Validator;
+			sourceTree = "<group>";
+		};
+		F8022B961A6AA9AE007102E0 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				F8915EF31A6A8FE2008F28C0 /* SWErrorCode.h */,
+				F8022B981A6AAB69007102E0 /* SWHTTPMethod.h */,
+				F8022B991A6AAB81007102E0 /* SWRequestType.h */,
+			);
+			name = Enum;
+			sourceTree = "<group>";
+		};
+		F8022B971A6AA9BF007102E0 /* SWRequest */ = {
+			isa = PBXGroup;
+			children = (
+				F8022B951A6AA998007102E0 /* SWRequestDelegate.h */,
+				F8915EE21A6A8537008F28C0 /* SWRequest.h */,
+				F8915EE31A6A8537008F28C0 /* SWRequest.m */,
+			);
+			name = SWRequest;
+			sourceTree = "<group>";
+		};
+		F8022B9A1A6AABD5007102E0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F8022B9B1A6AABFA007102E0 /* SWAppHelper.h */,
+				F8022B9C1A6AABFA007102E0 /* SWAppHelper.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		F8976DCD1A6A822900D8A59B = {
+			isa = PBXGroup;
+			children = (
+				F8976DDB1A6A822900D8A59B /* ServerInteraction */,
+				F8976DD81A6A822900D8A59B /* Frameworks */,
+				F8976DD71A6A822900D8A59B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8976DD71A6A822900D8A59B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8976DD61A6A822900D8A59B /* ServerInteraction.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8976DD81A6A822900D8A59B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8976DD91A6A822900D8A59B /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8976DDB1A6A822900D8A59B /* ServerInteraction */ = {
+			isa = PBXGroup;
+			children = (
+				F8022B971A6AA9BF007102E0 /* SWRequest */,
+				F8022B961A6AA9AE007102E0 /* Enum */,
+				F8022B8F1A6AA86D007102E0 /* Utilities */,
+				F8976DDC1A6A822900D8A59B /* Supporting Files */,
+			);
+			path = ServerInteraction;
+			sourceTree = "<group>";
+		};
+		F8976DDC1A6A822900D8A59B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8976DDD1A6A822900D8A59B /* ServerInteraction-Info.plist */,
+				F8976DDE1A6A822900D8A59B /* InfoPlist.strings */,
+				F8976DE11A6A822900D8A59B /* ServerInteraction-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F8915EE51A6A8610008F28C0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8915EE61A6A8614008F28C0 /* SWRequest.h in Headers */,
+				F8022B931A6AA8C0007102E0 /* Validator.h in Headers */,
+				F8022B9D1A6AABFA007102E0 /* SWAppHelper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F8976DD51A6A822900D8A59B /* ServerInteraction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8976DE41A6A822900D8A59B /* Build configuration list for PBXNativeTarget "ServerInteraction" */;
+			buildPhases = (
+				F8976DD21A6A822900D8A59B /* Sources */,
+				F8976DD31A6A822900D8A59B /* Frameworks */,
+				F8976DD41A6A822900D8A59B /* Resources */,
+				F8915EE51A6A8610008F28C0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ServerInteraction;
+			productName = ServerInteraction;
+			productReference = F8976DD61A6A822900D8A59B /* ServerInteraction.framework */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8976DCE1A6A822900D8A59B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Adroit Business Solution";
+			};
+			buildConfigurationList = F8976DD11A6A822900D8A59B /* Build configuration list for PBXProject "ServerInteraction" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F8976DCD1A6A822900D8A59B;
+			productRefGroup = F8976DD71A6A822900D8A59B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8976DD51A6A822900D8A59B /* ServerInteraction */,
+				F8915EE71A6A86B9008F28C0 /* ServerInteractionFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8976DD41A6A822900D8A59B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8976DE01A6A822900D8A59B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F8915EEB1A6A86E1008F28C0 /* Xcode Script to Lipo Tool */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Xcode Script to Lipo Tool";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Sets the target folders and the final framework product.\nFMK_NAME=\"ServerInteraction\"\nFMK_VERSION=\"1.0\"\n\n# Install dir will be the final output to the framework.\n# The following line create it in the root folder of the current project.\nINSTALL_DIR=${SRCROOT}/Products/${FMK_NAME}.framework\n\n# Working dir will be deleted after the framework creation.\nWRK_DIR=build\nDEVICE_DIR=${WRK_DIR}/Release-iphoneos/${FMK_NAME}.framework\nSIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator/${FMK_NAME}.framework\n\n# Building both architectures.\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator\n\n# Cleaning the oldest.\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\n\n# Creates and renews the final product folder.\nmkdir -p \"${INSTALL_DIR}\"\nmkdir -p \"${INSTALL_DIR}/Versions\"\nmkdir -p \"${INSTALL_DIR}/Versions/${FMK_VERSION}\"\nmkdir -p \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources\"\nmkdir -p \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Headers\"\n\n# Creates the internal links.\n# It MUST uses relative path, otherwise will not work when the folder is copied/moved.\nln -s \"${FMK_VERSION}\" \"${INSTALL_DIR}/Versions/Current\"\nln -s \"Versions/Current/Headers\" \"${INSTALL_DIR}/Headers\"\nln -s \"Versions/Current/Resources\" \"${INSTALL_DIR}/Resources\"\nln -s \"Versions/Current/${FMK_NAME}\" \"${INSTALL_DIR}/${FMK_NAME}\"\n\n# Copies the headers and resources files to the final product folder.\ncp -R \"${DEVICE_DIR}/Headers/\" \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Headers/\"\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources/\"\n\n# Removes the binary and header from the resources folder.\nrm -r \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources/Headers\" \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources/${FMK_NAME}\"\n\n# Uses the Lipo Tool to merge both binary files (i386 + armv6/armv7) into one Universal final product.\nlipo -create \"${DEVICE_DIR}/${FMK_NAME}\" \"${SIMULATOR_DIR}/${FMK_NAME}\" -output \"${INSTALL_DIR}/Versions/${FMK_VERSION}/${FMK_NAME}\"\n\nrm -r \"${WRK_DIR}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8976DD21A6A822900D8A59B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8022B941A6AA8C0007102E0 /* Validator.m in Sources */,
+				F8915EE41A6A8537008F28C0 /* SWRequest.m in Sources */,
+				F8022B9E1A6AABFA007102E0 /* SWAppHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F8976DDE1A6A822900D8A59B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8976DDF1A6A822900D8A59B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8915EE91A6A86B9008F28C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F8915EEA1A6A86B9008F28C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F8976DE21A6A822900D8A59B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F8976DE31A6A822900D8A59B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F8976DE51A6A822900D8A59B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv6,
+				);
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "ServerInteraction/ServerInteraction-Prefix.pch";
+				INFOPLIST_FILE = "ServerInteraction/ServerInteraction-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		F8976DE61A6A822900D8A59B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv6,
+				);
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "ServerInteraction/ServerInteraction-Prefix.pch";
+				INFOPLIST_FILE = "ServerInteraction/ServerInteraction-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8915EE81A6A86B9008F28C0 /* Build configuration list for PBXAggregateTarget "ServerInteractionFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8915EE91A6A86B9008F28C0 /* Debug */,
+				F8915EEA1A6A86B9008F28C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8976DD11A6A822900D8A59B /* Build configuration list for PBXProject "ServerInteraction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8976DE21A6A822900D8A59B /* Debug */,
+				F8976DE31A6A822900D8A59B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8976DE41A6A822900D8A59B /* Build configuration list for PBXNativeTarget "ServerInteraction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8976DE51A6A822900D8A59B /* Debug */,
+				F8976DE61A6A822900D8A59B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8976DCE1A6A822900D8A59B /* Project object */;
+}
