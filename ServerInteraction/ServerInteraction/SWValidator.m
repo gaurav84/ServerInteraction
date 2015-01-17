@@ -6,9 +6,9 @@
 //  Copyright (c) 2013 Gaurav Srivastava. All rights reserved.
 //
 
-#import "Validator.h"
+#import "SWValidator.h"
 
-@implementation Validator
+@implementation SWValidator
 
 +(BOOL)isTextNil:(NSString *)text {
     NSString *trimmed = [text stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];

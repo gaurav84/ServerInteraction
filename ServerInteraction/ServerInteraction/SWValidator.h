@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Validator : NSObject
+@interface SWValidator : NSObject
 
 +(BOOL)isTextNil:(NSString *)text;
 +(BOOL)isEmailValid:(NSString *)email;

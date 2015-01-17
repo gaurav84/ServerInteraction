@@ -14,10 +14,10 @@
     NSLog();
     
     switch (httpMethod) {
-        case GET:
+        case HTTP_METHOD_GET:
             return @"GET";
             break;
-        case POST:
+        case HTTP_METHOD_POST:
             return @"POST";
             break;
         default:

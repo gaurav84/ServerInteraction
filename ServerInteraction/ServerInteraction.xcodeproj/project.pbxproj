@@ -21,20 +21,24 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		F8022B931A6AA8C0007102E0 /* Validator.h in Headers */ = {isa = PBXBuildFile; fileRef = F8022B911A6AA8C0007102E0 /* Validator.h */; };
-		F8022B941A6AA8C0007102E0 /* Validator.m in Sources */ = {isa = PBXBuildFile; fileRef = F8022B921A6AA8C0007102E0 /* Validator.m */; };
+		F8022B931A6AA8C0007102E0 /* SWValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = F8022B911A6AA8C0007102E0 /* SWValidator.h */; };
+		F8022B941A6AA8C0007102E0 /* SWValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = F8022B921A6AA8C0007102E0 /* SWValidator.m */; };
 		F8022B9D1A6AABFA007102E0 /* SWAppHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = F8022B9B1A6AABFA007102E0 /* SWAppHelper.h */; };
 		F8022B9E1A6AABFA007102E0 /* SWAppHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F8022B9C1A6AABFA007102E0 /* SWAppHelper.m */; };
 		F8915EE41A6A8537008F28C0 /* SWRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F8915EE31A6A8537008F28C0 /* SWRequest.m */; };
 		F8915EE61A6A8614008F28C0 /* SWRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = F8915EE21A6A8537008F28C0 /* SWRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8976DDA1A6A822900D8A59B /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8976DD91A6A822900D8A59B /* CoreFoundation.framework */; };
 		F8976DE01A6A822900D8A59B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8976DDE1A6A822900D8A59B /* InfoPlist.strings */; };
+		F8C34D701A6AD40D00906337 /* SWRequestUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = F8C34D6E1A6AD40D00906337 /* SWRequestUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8C34D711A6AD40D00906337 /* SWRequestUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C34D6F1A6AD40D00906337 /* SWRequestUtil.m */; };
+		F8C34D761A6ADB4F00906337 /* SWErrorCode.h in Headers */ = {isa = PBXBuildFile; fileRef = F8915EF31A6A8FE2008F28C0 /* SWErrorCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8C34D771A6ADB4F00906337 /* SWHTTPMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = F8022B981A6AAB69007102E0 /* SWHTTPMethod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8C34D781A6ADB4F00906337 /* SWRequestType.h in Headers */ = {isa = PBXBuildFile; fileRef = F8022B991A6AAB81007102E0 /* SWRequestType.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F8022B911A6AA8C0007102E0 /* Validator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Validator.h; sourceTree = "<group>"; };
-		F8022B921A6AA8C0007102E0 /* Validator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Validator.m; sourceTree = "<group>"; };
-		F8022B951A6AA998007102E0 /* SWRequestDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWRequestDelegate.h; sourceTree = "<group>"; };
+		F8022B911A6AA8C0007102E0 /* SWValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWValidator.h; sourceTree = "<group>"; };
+		F8022B921A6AA8C0007102E0 /* SWValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWValidator.m; sourceTree = "<group>"; };
 		F8022B981A6AAB69007102E0 /* SWHTTPMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWHTTPMethod.h; sourceTree = "<group>"; };
 		F8022B991A6AAB81007102E0 /* SWRequestType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWRequestType.h; sourceTree = "<group>"; };
 		F8022B9B1A6AABFA007102E0 /* SWAppHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWAppHelper.h; sourceTree = "<group>"; };
@@ -47,6 +51,8 @@
 		F8976DDD1A6A822900D8A59B /* ServerInteraction-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ServerInteraction-Info.plist"; sourceTree = "<group>"; };
 		F8976DDF1A6A822900D8A59B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F8976DE11A6A822900D8A59B /* ServerInteraction-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ServerInteraction-Prefix.pch"; sourceTree = "<group>"; };
+		F8C34D6E1A6AD40D00906337 /* SWRequestUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRequestUtil.h; sourceTree = "<group>"; };
+		F8C34D6F1A6AD40D00906337 /* SWRequestUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRequestUtil.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,8 +79,8 @@
 		F8022B901A6AA87E007102E0 /* Validator */ = {
 			isa = PBXGroup;
 			children = (
-				F8022B911A6AA8C0007102E0 /* Validator.h */,
-				F8022B921A6AA8C0007102E0 /* Validator.m */,
+				F8022B911A6AA8C0007102E0 /* SWValidator.h */,
+				F8022B921A6AA8C0007102E0 /* SWValidator.m */,
 			);
 			name = Validator;
 			sourceTree = "<group>";
@@ -92,7 +98,6 @@
 		F8022B971A6AA9BF007102E0 /* SWRequest */ = {
 			isa = PBXGroup;
 			children = (
-				F8022B951A6AA998007102E0 /* SWRequestDelegate.h */,
 				F8915EE21A6A8537008F28C0 /* SWRequest.h */,
 				F8915EE31A6A8537008F28C0 /* SWRequest.m */,
 			);
@@ -136,6 +141,7 @@
 		F8976DDB1A6A822900D8A59B /* ServerInteraction */ = {
 			isa = PBXGroup;
 			children = (
+				F8C34D6D1A6AD30200906337 /* SWRequestUtil */,
 				F8022B971A6AA9BF007102E0 /* SWRequest */,
 				F8022B961A6AA9AE007102E0 /* Enum */,
 				F8022B8F1A6AA86D007102E0 /* Utilities */,
@@ -154,6 +160,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F8C34D6D1A6AD30200906337 /* SWRequestUtil */ = {
+			isa = PBXGroup;
+			children = (
+				F8C34D6E1A6AD40D00906337 /* SWRequestUtil.h */,
+				F8C34D6F1A6AD40D00906337 /* SWRequestUtil.m */,
+			);
+			name = SWRequestUtil;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -162,7 +177,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8915EE61A6A8614008F28C0 /* SWRequest.h in Headers */,
-				F8022B931A6AA8C0007102E0 /* Validator.h in Headers */,
+				F8C34D701A6AD40D00906337 /* SWRequestUtil.h in Headers */,
+				F8C34D761A6ADB4F00906337 /* SWErrorCode.h in Headers */,
+				F8C34D771A6ADB4F00906337 /* SWHTTPMethod.h in Headers */,
+				F8C34D781A6ADB4F00906337 /* SWRequestType.h in Headers */,
+				F8022B931A6AA8C0007102E0 /* SWValidator.h in Headers */,
 				F8022B9D1A6AABFA007102E0 /* SWAppHelper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,9 +267,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8022B941A6AA8C0007102E0 /* Validator.m in Sources */,
+				F8022B941A6AA8C0007102E0 /* SWValidator.m in Sources */,
 				F8915EE41A6A8537008F28C0 /* SWRequest.m in Sources */,
 				F8022B9E1A6AABFA007102E0 /* SWAppHelper.m in Sources */,
+				F8C34D711A6AD40D00906337 /* SWRequestUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,25 +9,23 @@
 #import <Foundation/Foundation.h>
 #import "SWRequestType.h"
 #import "SWHTTPMethod.h"
-#import "SWErrorCode.h"
-#import "SWRequestDelegate.h"
 
 @interface SWRequest : NSObject
 
 /*
  URL of the destination server
  */
-@property (nonatomic, strong) NSURL *requestURL;
+@property (nonatomic, strong) NSURL *serverURL;
 
 /*
- Optional
  HTTP Method - GET/POST
- Default value: GET
+ Optional, Default: GET
  */
 @property (nonatomic, assign) SWHTTPMethod httpMethod;
 
 /*
  Type of request - Synchronous/Asynchronous
+ Optional, Default: Async
  */
 @property (nonatomic, assign) SWRequestType requestType;
 
@@ -48,15 +46,5 @@
  Timeout (in seconds) for request
  */
 @property (nonatomic, assign) int timeOut;
-
-/*
- Delegate to handle success/failure/error callbacks
- */
-@property (nonatomic, weak) id<SWRequestDelegate> delegate;
-
-/**
- Prepares the request object, based on the set values.
- */
--(void)makeRequest;
 
 @end
